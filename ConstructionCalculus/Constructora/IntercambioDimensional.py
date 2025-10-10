@@ -11,12 +11,12 @@ def m(m):
 def cm(cm):
     return cm
 
-def inch(numero,fraccion):
-    cm = numero / fraccion * 2.54
-    return cm
-
 def inch(inch):
     cm = inch * 2.54
+    return cm
+
+def inch(numero,fraccion):
+    cm = numero / fraccion * 2.54
     return cm
 
 def ft(ft):
