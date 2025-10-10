@@ -1,4 +1,3 @@
-
 #Unidad base centimetros
 
 def mm(mm):
@@ -23,6 +22,3 @@ def inch(inch):
 def ft(ft):
     inch = ft * 12
     return inch
-
-print(50,"cm")
-print("5 ft:",inch(ft(5)),"cm")
