@@ -1,1 +1,1 @@
-print("Calcular tabiques en muro")
+print("Calcular tabiques en pared")
