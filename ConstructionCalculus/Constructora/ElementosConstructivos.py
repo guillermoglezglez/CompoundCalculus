@@ -35,6 +35,3 @@ def pared(alto,largo,tabique,viga,cerramiento):
     ladrillosLargo = round(largoMuroLadrillos / (largoTabique + union),2)
 
     return [ladrillosAltura,ladrillosLargo]
-
-print(pared(100,100,ladrillo,vigaMuro,cerramientoComun))
-print(pared(100,100,bloque,vigaMuro,cerramientoComun))
