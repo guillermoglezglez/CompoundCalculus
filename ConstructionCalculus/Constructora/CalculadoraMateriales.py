@@ -11,8 +11,3 @@ def cantidadTabiques(pared):
 
     ladrillos = ladrillosAlto * parteEnteraLargoPared + fragmentosTabique
     return ladrillos
-
-muroLadrillo = pared(100,100,ladrillo,vigaMuro,cerramientoComun)
-muroBloque = pared(100,100,bloque,vigaMuro,cerramientoComun)
-print(cantidadTabiques(muroLadrillo))
-print(cantidadTabiques(muroBloque))
