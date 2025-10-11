@@ -22,4 +22,24 @@ def cerramiento(estructura,camisa,nombre):
     alturaCerramiento = estructura + 2 * (camisa)
     return(alturaCerramiento,camisa,nombre)
 
-print(varilla(3,"corrugada"))
+union = 1
+camisa = 3
+bloque = tabique(15, 20, 40, union, 12, "bloque")
+ladrillo = tabique(14,7,25,union,20,"ladrillo")
+lego = tabique(10,10,20,union,25,"lego")
+varillaN3 = varilla(3,"varilla corrugada #3")
+varillaN5 = varilla(5,"varilla corrugada #5")
+vigaMuro = viga(varillaN3,2,20,camisa,"viga muro")
+vigaCarga = viga(varillaN5,3,20,camisa, "viga carga")
+
+cerramientoComun = cerramiento(20,camisa,"cerramiento comun")
+
+print(bloque)
+print(ladrillo)
+print(lego)
+print(varillaN3)
+print(varillaN5)
+print(vigaMuro)
+print(vigaCarga)
+
+print(cerramientoComun)
