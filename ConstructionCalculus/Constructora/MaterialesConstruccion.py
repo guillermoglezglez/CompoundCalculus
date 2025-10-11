@@ -1,4 +1,4 @@
-import IntercambioDimensional as u
+from ConstructionCalculus.Constructora import IntercambioDimensional as u
 
 def varilla(numero,nombre):
     fraccion = 8

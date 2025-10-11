@@ -1,5 +1,5 @@
 import math
-import IntercambioDimensional as u
+from ConstructionCalculus.Constructora import IntercambioDimensional as u
 from ConstructionCalculus.Constructora.EspecificacionesMateriales import ladrillo, vigaMuro, bloque,cerramientoComun
 
 

@@ -1,4 +1,4 @@
-import MaterialesConstruccion as matCons
+from ConstructionCalculus.Constructora import MaterialesConstruccion as matCons
 
 # Unidad centimetros
 # Block    espesor 10 15 20 altura 20 largo 40 metro 12.5 pz 16  lineas 12
