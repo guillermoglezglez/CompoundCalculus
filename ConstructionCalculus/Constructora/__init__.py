@@ -1,1 +1,0 @@
-print("Calcul tabiques en pared")

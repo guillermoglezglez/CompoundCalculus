@@ -17,13 +17,3 @@ vigaMuro = matCons.viga(varillaN3,2,20,camisa,"viga muro")
 vigaCarga = matCons.viga(varillaN5,3,20,camisa, "viga carga")
 
 cerramientoComun = matCons.cerramiento(20,camisa,"cerramiento comun")
-
-print(bloque)
-print(ladrillo)
-print(lego)
-print(varillaN3)
-print(varillaN5)
-print(vigaMuro)
-print(vigaCarga)
-
-print(cerramientoComun)
