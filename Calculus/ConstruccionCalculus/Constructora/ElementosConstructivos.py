@@ -1,6 +1,6 @@
 import math
-from ConstructionCalculus.Constructora import IntercambioDimensional as u
-from ConstructionCalculus.Constructora.EspecificacionesMateriales import ladrillo, vigaMuro, bloque,cerramientoComun
+from ConstruccionCalculus.Constructora import IntercambioDimensional as u
+from ConstruccionCalculus.Constructora.EspecificacionesMateriales import ladrillo, vigaMuro, bloque,cerramientoComun
 
 
 def pared(alto,largo,tabique,viga,cerramiento):

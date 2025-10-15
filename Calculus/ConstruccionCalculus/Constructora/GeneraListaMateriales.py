@@ -1,9 +1,8 @@
-from ConstructionCalculus.Constructora import ElementosConstructivos as c
-from ConstructionCalculus.Constructora import IntercambioDimensional as u
-from ConstructionCalculus.Constructora import EspecificacionesMateriales as material
-from ConstructionCalculus.Constructora import CalculadoraMateriales as calculate
+from ConstruccionCalculus.Constructora import ElementosConstructivos as c
+from ConstruccionCalculus.Constructora import IntercambioDimensional as u
+from ConstruccionCalculus.Constructora import EspecificacionesMateriales as material
+from ConstruccionCalculus.Constructora import CalculadoraMateriales as calculate
 
-from ConstructionCalculus.Constructora.EspecificacionesMateriales import ladrillo, bloque
 
 def paredTabiquesVigasCerramiento_metros(tabique,alto,largo):
     pared = c.pared(u.m(alto),u.m(largo),tabique,material.vigaMuro,material.cerramientoComun)

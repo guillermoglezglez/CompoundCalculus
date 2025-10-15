@@ -1,6 +1,6 @@
 import math
-from ConstructionCalculus.Constructora.EspecificacionesMateriales import ladrillo,bloque,vigaMuro,cerramientoComun
-from ConstructionCalculus.Constructora.ElementosConstructivos import pared
+from ConstruccionCalculus.Constructora.EspecificacionesMateriales import ladrillo,bloque,vigaMuro,cerramientoComun
+from ConstruccionCalculus.Constructora.ElementosConstructivos import pared
 
 def cantidadTabiques(pared):
     ladrillosAlto = pared[0]
