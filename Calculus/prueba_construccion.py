@@ -1,5 +1,0 @@
-from ConstruccionCalculus.Constructora.EspecificacionesMateriales import ladrillo,bloque
-from ConstruccionCalculus.Constructora import GeneraListaMateriales as lista_materiales
-
-lista_materiales.material_ParedTabiquesCerramiento_metros(ladrillo,1,1)
-lista_materiales.material_ParedTabiquesCerramiento_metros(bloque,1,1)
