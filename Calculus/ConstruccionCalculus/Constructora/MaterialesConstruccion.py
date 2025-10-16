@@ -1,4 +1,4 @@
-from ConstruccionCalculus.Constructora import IntercambioDimensional as u
+from Calculus.ConstruccionCalculus.Constructora import IntercambioDimensional as u
 
 
 def varilla(numero,nombre):

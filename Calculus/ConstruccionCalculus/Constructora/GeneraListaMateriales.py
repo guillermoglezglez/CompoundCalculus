@@ -1,7 +1,7 @@
-from ConstruccionCalculus.Constructora import ElementosConstructivos as c
-from ConstruccionCalculus.Constructora import IntercambioDimensional as u
-from ConstruccionCalculus.Constructora import EspecificacionesMateriales as material
-from ConstruccionCalculus.Constructora import CalculadoraMateriales as calculate
+from Calculus.ConstruccionCalculus.Constructora import ElementosConstructivos as c
+from Calculus.ConstruccionCalculus.Constructora import IntercambioDimensional as u
+from Calculus.ConstruccionCalculus.Constructora import EspecificacionesMateriales as material
+from Calculus.ConstruccionCalculus.Constructora import CalculadoraMateriales as calculate
 
 
 def paredTabiquesVigasCerramiento_metros(tabique,alto,largo):
