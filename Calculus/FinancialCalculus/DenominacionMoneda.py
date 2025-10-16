@@ -38,6 +38,8 @@ def generaCambio(precio,pago,cajaDivisa):
     errores = 0
     # print("precio",precio,"pago",pago,"cambio",pago-precio)
     cambio = pago - precio
+    cantidadBilletesCaja = cajaDivisa[1]
+    cantidadMonedasCaja = cajaDivisa[2]
     cantidadBilletesCambio = rellenaLista(cajaDivisa[1],0)
     cantidadMonedasCambio = rellenaLista(cajaDivisa[2],0)
     if(cambio == 0):
@@ -47,16 +49,22 @@ def generaCambio(precio,pago,cajaDivisa):
         errores += 1
     else:
         cantidadDeBilletes = len(cajaDivisa[0][0])
-        cantidadDeMonedas = len(cajaDivisa[0][0])
         for i in range(0,cantidadDeBilletes):
             denominacionBillete = cajaDivisa[0][0][i]
-            # print("cambio",cambio,">=","denom Billete",denominacionBillete)
             cantidadBilletesCambio[i] = 0
             while(cambio >= denominacionBillete):
                 cantidadBilletesCambio[i] += 1
                 cambio -= denominacionBillete
-                # print("cambio",cambio)
-        return(cantidadBilletesCambio)
+
+        cantidadDeMonedas = len(cajaDivisa[0][1])
+        for i in range(0,cantidadDeMonedas):
+            denominacionMoneda = cajaDivisa[0][1][i]
+            cantidadMonedasCambio[i] = 0
+            while(cambio >= denominacionMoneda):
+                cantidadMonedasCambio[i] += 1
+                cambio -= denominacionMoneda
+
+        return(cantidadBilletesCambio,cantidadMonedasCambio)
 
 
 monedas = [10,5,2,1,0.50]

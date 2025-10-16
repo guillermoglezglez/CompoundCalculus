@@ -9,7 +9,7 @@ pais = "Mexico"
 
 MXN = denominacion.divisa(monedas,billetes,nombre,pais)
 cajaMXN = denominacion.caja(MXN,cantidadMonedas,cantidadBilletes)
-cambio = denominacion.generaCambio(100,120,cajaMXN)
+cambio = denominacion.generaCambio(100,122.50,cajaMXN)
 print(cambio)
 
 monedas = [0.50,0.25,0.10,0.05,0.01]
